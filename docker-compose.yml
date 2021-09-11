@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  server:
+    container_name: loja_integrada_api
+    build: ./server
+    volumes:
+      - "./server:/app"
+    ports:
+      - 8000:8000
+  client:
+    container_name: loja_integrada_app
+    build: ./client
+    volumes:
+      - "./client:/app"
+    ports:
+      - 3000:3000
