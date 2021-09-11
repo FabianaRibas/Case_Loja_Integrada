@@ -59,7 +59,7 @@ Versão responsiva
 
 ### Para distribuição Linux 🐧 :
 
-**Para a execução do projeto é necessário a instalação previa do docker e docker-compose.**
+**Para a execução do projeto é necessário a instalação previa do docker, docker-compose, node(npm).**
 
 1. [Clone](https://help.github.com/en/articles/cloning-a-repository) o repositório do projeto. Para clonar vá ao terminal e digite:
 
@@ -73,11 +73,13 @@ $ git clone git@github.com:FabianaRibas/Case_Loja_integrada.git
 $ cd Case_Loja_integrada
 ```
 
-3. Para compilar o projeto, execute o comando do docker:
+3. Para compilar o projeto, execute o comando:
 
 ```
-$ docker-compose up --build
+$ make install
 ```
+
+o Makefile instala localmente o node_modules para posteriormente ser copiado para o container.
 
 4. Depois de realizar todos esses passos, aproveite o projeto e divirta-se!
 
