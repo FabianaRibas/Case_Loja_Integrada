@@ -83,4 +83,4 @@ $ docker-compose up --build
 
 ## 💻 Uso
 
-Utilize a rota http://localhost:3000/ para logar na aplicação. Após logar com sucesso você será redirecionado para a rota http://localhost:3000/home
+Utilize a rota http://localhost:3000/ para logar na aplicação. O email é *lojaintegrada@email.com* e a senha é _fake123_. Após logar com sucesso você será redirecionado para a rota http://localhost:3000/home
