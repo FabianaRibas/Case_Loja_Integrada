@@ -2,7 +2,7 @@
 
 ## Sobre ℹ️
 
-O projeto é uma página de login para uma aplicação web.
+O projeto é uma página de login para uma aplicação web. Pode ser acessada em http://137.184.13.32:3000/ . Utilize o email *lojaintegrada@email.com* e a senha _fake123_ para logar.
 
 ## Priorização
 
